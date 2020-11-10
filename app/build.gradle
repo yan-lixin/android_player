@@ -36,13 +36,7 @@ android {
     externalNativeBuild {
         cmake {
             path "src/main/cpp/CMakeLists.txt"
-            version "3.10.2"
-        }
-    }
-
-    sourceSets {
-        main {
-            jniLibs.srcDirs = ['libs']
+            version "3.6.0"
         }
     }
 
